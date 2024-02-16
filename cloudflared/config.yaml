@@ -1,0 +1,6 @@
+tunnel: 3406b998-2ada-4115-b9f8-04d96b5871a0
+credentials-file: /etc/cloudflared/3406b998-2ada-4115-b9f8-04d96b5871a0.json
+ingress:
+  - hostname: foobar.shivanandpatil.co
+    service: http://wordpress:80
+  - service: http_status:404
